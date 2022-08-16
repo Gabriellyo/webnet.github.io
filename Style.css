@@ -1,0 +1,219 @@
+body {
+    padding-left: 15px;
+    border-style: solid;
+    border-width: 3px;
+    background-image:url("http://thenewcode.com/assets/images/final-starfield.png");
+    background-repeat: repeat;
+}
+h1 {
+        color: #FF1493;
+        font-size: 45px;
+        margin: 5px;
+        background-color: pink;
+        text-align: center;
+        text-decoration: blink;
+        text-shadow: 5px 4px 2px grey;
+        border: 5px solid red;
+    }    
+    p { 
+        color: #990292;
+        background-color: rgb(54, 12, 13);
+        padding-left: 26px;
+        border: 4px solid gray;
+    }
+h1 {
+    font-family: Florence, cursive;
+    text-shadow: 3px 4px 2px grey;
+}
+h2 {
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+}
+h3 {
+    font-size: 240px;
+    text-align: center;
+    color: #ff6666;
+    text-shadow: rgba(0,0,255,1) -1px -2px 0.5em;
+    padding: 39px;
+    background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png")
+}
+h3 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  width: 500px;
+  hight: 250px;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: gray;
+  color: blue;
+}
+span.NASA: -10px;
+
+}
+p.negative { 
+    letter-spacing: -1.5px; 
+    padding-left: 26px;
+}
+       /*dont be a pussy jost code*/
+
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
+.context {
+    width: 1%;
+    position: absolute;
+    top:100vh;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.area{
+    background: #DDA0DD;  
+    background: -webkit-linear-gradient(to left, #746622, #927622);  
+    width: 100%;
+    height: 1vh;
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 200px;
+    background: rgba(0, 100, 90, 0.3);
+    animation: animate 60s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 3s;
+    animation-duration: 8s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0;
+    animation-duration: 18;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 4s;
+    animation-duration: 14s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 3s;
+    animation-duration: 6s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 0s;
+    animation-duration: 9s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 2s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 1s;
+    animation-duration: 6s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 3s;
+    animation-duration: 7s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 4s;
+    animation-duration: 20s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 200%;
+    }
+    
