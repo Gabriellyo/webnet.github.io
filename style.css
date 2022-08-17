@@ -63,6 +63,11 @@ p.negative {
     letter-spacing: -1.5px; 
     padding-left: 26px;
 }
+ul {
+    list-style-image: url("content://media/external/downloads/14840");
+    list-style-position: inside;
+    font-size: 25px;        
+}
        /*dont be a pussy jost code*/
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
